@@ -1,8 +1,25 @@
 $(function () {
 
+  if(document.location.search) {
+    var queryString = document.location.search.replace('?', '');
+    var pairs = queryString.split('&').map(function (pair) {
+      return pair.split('=');
+    });
+
+    $('.query-params').show();
+    var $tbody = $('.query-params tbody');
+
+    pairs.forEach(function (pair) {
+      var $tr = $('<tr>');
+      $tr.append($('<td>').html(pair[0]));
+      $tr.append($('<td>').html(pair[1]));
+      $tbody.append($tr);
+    });
+  }
+
   $("form.example").on("submit", function (e) {
-    $('table').show();
-    var $tbody = $('tbody');
+    $('.form-params').show();
+    var $tbody = $('.form-params tbody');
     $tbody.empty();
     $(e.target).serializeArray().forEach(function (el) {
       var $tr = $('<tr>');

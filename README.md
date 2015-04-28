@@ -66,3 +66,9 @@ Stretch:
 Make a form that looks like this:
 
 ![](img/example.png)
+
+## Challenge #6
+
+* Add a few form fields
+* Submit the form (this one makes a GET request)
+* Change the action on the form and submit
