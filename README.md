@@ -20,6 +20,7 @@ Add some fields:
 * add an input of type "email"
 * add an input of type "date"
 * add an input of type "number"
+* add an input of type "file"
 * add unique names and ids to each
 * for each input and textarea, add a label with a `for` attribute that matches
 * add a submit button (input with a type of submit)
