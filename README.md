@@ -9,6 +9,12 @@
 
 When you add HTML elements to the forms, and click the button, you will see a table of types / names / values appear below.  This is how you'll know you did it correctly.
 
+## Resources
+
+* http://www.w3.org/TR/html401/interact/forms.html
+* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
+* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms
+
 ## Challenge #1
 
 Inside the form:
@@ -16,7 +22,9 @@ Inside the form:
 Add some fields:
 
 * add two inputs with the type "text"
+  * give one a value
 * add two textareas
+  * give one some pre-filled text
 * add an input of type "email"
 * add an input of type "date"
 * add an input of type "number"
@@ -53,14 +61,16 @@ Inside the form:
 Inside the form:
 
 * add 3 select boxes with options
-* in the first, add options with values and text
+* in the first
+  * add options with values and text
+  * make one of them selected by default when the page loads
 * in the second, add options with just text
 * in the third, add some options with blank values
 * add labels for all
 
-Stretch:
+Extra:
 
-* add optgroups with labels to group options
+* add optgroups with labels to group options (http://www.w3.org/TR/html401/interact/forms.html#h-17.6)
 
 ## Challenge #5
 
