@@ -49,7 +49,8 @@ Inside the form:
 Inside the form:
 
 * add two sets of radio buttons
-* in each set:
+* for each set:
+  * wrap all the radio buttons in a fieldset
   * give each radio button the same name
   * give each radio button a unique id
   * wrap each radio button in a label with some text
