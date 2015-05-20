@@ -11,7 +11,6 @@ When you add HTML elements to the forms, and click the button, you will see a ta
 
 ## Resources
 
-- http://www.w3.org/TR/html401/interact/forms.html
 - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form
 - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input
@@ -76,8 +75,7 @@ Inside the form in `index.html` add some fields:
 
 Extra:
 
-- add optgroups with labels to group options (http://www.w3.org/TR/html401/interact/forms.html#h-17.6)
-
+- add optgroups with labels to group options
 ## Challenge #5
 
 In `example_05.html`, make a form that looks like this:
