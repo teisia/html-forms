@@ -16,8 +16,38 @@
       <a href="example_06.html">Example 6</a>
     </nav>
     <h1>Form Fields: Example 3</h1>
-
-    <form action="" method="get">
+    <form action="example_03.html" method="get">
+      <fieldset>
+        <legend>Size</legend>
+        <div>
+        <input type="radio" name="size" value="s"/>
+        <label>Small</label>
+       </div>
+       <div>
+        <input type="radio" name="size" value="m"/>
+        <label>Medium</label>
+       </div>
+       <div>
+        <input type="radio" name="size" value="l"/>
+        <label>Large</label>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Color</legend>
+        <div>
+        <input type="radio" name="color" value="blue"/>
+        <label>Blue</label>
+       </div>
+       <div>
+        <input type="radio" name="color" value="red" checked="checked"/>
+        <label>Red</label>
+       </div>
+       <div>
+        <input type="radio" name="color" value="yellow"/>
+        <label>Yellow</label>
+      </div>
+      </fieldset>
+      <button type="submit">Submit</button>
     </form>
 
     <div class="query-params">
